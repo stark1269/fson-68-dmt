@@ -58,12 +58,6 @@ button {
 }
 
 /* utils */
-.container {
-  width: 1360px;
-  margin: 0 auto;
-  padding: 0 28px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -78,8 +72,58 @@ button {
   overflow: hidden;
 }
 
-/* HEADER */
+/* components */
+.container {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
 
+.section-top-text {
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.section-top-text-light {
+  margin-bottom: 5px;
+  color: var(--secondary-text-color);
+}
+
+.section-top-text-dark {
+  margin-bottom: 15px;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.section-title-light {
+  margin-bottom: 26px;
+  color: var(--secondary-text-color);
+}
+
+.section-title-dark {
+  margin-bottom: 34px;
+  color: var(--primary-text-color);
+}
+
+.section-bottom-text {
+  line-height: 1.56;
+}
+
+.section-bottom-text-light {
+  margin-bottom: 17px;
+  color: var(--secondary-text-color);
+}
+
+.section-bottom-text-dark {
+  margin-bottom: 39px;
+  color: var(--primary-text-color);
+}
+
+/* HEADER */
 .header {
   background-color: #5e5e5e;
 }
@@ -199,29 +243,6 @@ button {
   padding: 84px 44px 84px 30px;
 }
 
-.solution-top-text {
-  margin-bottom: 5px;
-  font-size: 20px;
-  line-height: 1.65;
-
-  color: var(--secondary-text-color);
-}
-
-.solution-title {
-  margin-bottom: 26px;
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
-
-  color: var(--secondary-text-color);
-}
-.solution-bottom-text {
-  margin-bottom: 17px;
-  line-height: 1.56;
-
-  color: var(--secondary-text-color);
-}
-
 .solution-button {
   display: inline-block;
   padding: 11px 27px 12px 42px;
@@ -238,26 +259,6 @@ button {
   text-align: center;
 }
 
-.cases-top-text {
-  font-size: 20px;
-  line-height: 1.65;
-  color: var(--primary-text-color);
-  margin-bottom: 15px;
-}
-
-.cases-title {
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
-  color: var(--primary-text-color);
-  margin-bottom: 34px;
-}
-
-.cases-bottom-text {
-  line-height: 1.56;
-  color: var(--primary-text-color);
-  margin-bottom: 39px;
-}
 .cases-list {
   display: flex;
   flex-wrap: wrap;
