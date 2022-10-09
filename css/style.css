@@ -187,3 +187,47 @@ button {
   text-align: center;
   color: var(--primary-text-color);
 }
+
+/* SOLUTION */
+.solution .container {
+  padding: 0;
+  display: flex;
+}
+
+.solution-wrapper {
+  background-color: var(--accent-color);
+  padding: 84px 44px 84px 30px;
+}
+
+.solution-top-text {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.65;
+
+  color: var(--secondary-text-color);
+}
+
+.solution-title {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+
+  color: var(--secondary-text-color);
+}
+.solution-bottom-text {
+  margin-bottom: 17px;
+  line-height: 1.56;
+
+  color: var(--secondary-text-color);
+}
+
+.solution-button {
+  display: inline-block;
+  padding: 11px 27px 12px 42px;
+  line-height: 1.56;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+
+  color: var(--secondary-text-color);
+}
