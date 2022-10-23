@@ -180,7 +180,8 @@ button {
   padding-bottom: 284px;
   text-align: center;
 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero/bg-hero.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/hero/bg-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -217,7 +218,7 @@ button {
 /* ABOUT */
 
 .about {
-  padding-top: 122px;
+  padding-top: 40px;
   padding-bottom: 19px;
 
   background-color: #f4f4f4;
@@ -234,6 +235,18 @@ button {
 
 .about-item {
   width: calc((100% - 142px) / 3);
+}
+
+.about-icon-wrapper {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
 }
 
 .about-title {
