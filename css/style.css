@@ -154,13 +154,22 @@ button {
 
 .logo {
   margin-right: auto;
+
   font-size: 35px;
   line-height: 1.21;
   color: var(--secondary-text-color);
+
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 10px;
+  fill: var(--accent-color);
 }
 
 .accent {
-  margin-right: 10px;
+  margin-right: 12px;
   color: var(--accent-color);
 }
 
