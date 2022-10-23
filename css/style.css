@@ -179,6 +179,13 @@ button {
   padding-top: 259px;
   padding-bottom: 284px;
   text-align: center;
+
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -201,7 +208,10 @@ button {
   border-radius: 5px;
   line-height: 1.56;
   color: var(--secondary-text-color);
-  padding: 10px 30px 10px 41px;
+  padding: 10px 30px 10px 27px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 /* ABOUT */
