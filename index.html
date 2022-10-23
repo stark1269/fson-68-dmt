@@ -1,252 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Finance Ledger</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+  <title>Finance Ledger</title>
 
-    <!-- font-family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <!-- normalize -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
-    />
+  <!-- font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
 
-    <!-- styles -->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css" />
 
-  <body>
-    <header class="header">
+  <!-- styles -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a class="logo link" href="./index.html">
+          <svg class="logo-icon" width="40" height="30">
+            <use href="./images/icons/sprite.svg#icon-logo"></use>
+          </svg>
+
+          <span class="accent">Finance</span>Ledger</a>
+        <ul class="nav-list list">
+          <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">About</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Cases</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Blog</a></li>
+          <li class="nav-item"><a class="nav-link link" href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main>
+    <section class="hero">
       <div class="container">
-        <nav class="nav">
-          <a class="logo link" href="./index.html">
-            <svg class="logo-icon" width="40" height="30">
-              <use href="./images/icons/sprite.svg#icon-logo"></use>
-            </svg>
-
-            <span class="accent">Finance</span>Ledger</a
-          >
-          <ul class="nav-list list">
-            <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">About</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Cases</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Blog</a></li>
-            <li class="nav-item"><a class="nav-link link" href="">Contact</a></li>
-          </ul>
-        </nav>
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <a class="hero-button link" href="">
+          <svg class="hero-btn-icon" width="9" height="18">
+            <use href="./images/icons/sprite.svg#icon-arrow-right"></use>
+          </svg>
+          Read More</a>
       </div>
-    </header>
+    </section>
 
-    <!-- main -->
-    <main>
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">The Sky Is The Limit</h1>
-          <p class="hero-text">We provide world class financial assistance</p>
-          <a class="hero-button link" href="">
-            <svg class="hero-btn-icon" width="9" height="18">
-              <use href="./images/icons/sprite.svg#icon-arrow-right"></use>
-            </svg>
-            Read More</a
-          >
-        </div>
-      </section>
-
-      <!-- About -->
-      <section class="about">
-        <div class="container">
-          <h2 class="visually-hidden">About</h2>
-          <ul class="about-list list">
-            <li class="about-item">
-              <div class="about-icon-wrapper">
-                <svg class="about-icon" width="35" height="35">
-                  <use href="./images/icons/sprite.svg#icon-university"></use>
-                </svg>
-              </div>
-              <h3 class="about-title">Investmant Banking</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-            <li class="about-item">
-              <div class="about-icon-wrapper">
-                <svg class="about-icon" width="35" height="35">
-                  <use href="./images/icons/sprite.svg#icon-book"></use>
-                </svg>
-              </div>
-              <h3 class="about-title">Portfolio Manager</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-            <li class="about-item">
-              <div class="about-icon-wrapper">
-                <svg class="about-icon" width="35" height="35">
-                  <use href="./images/icons/sprite.svg#icon-pencil"></use>
-                </svg>
-              </div>
-              <h3 class="about-title">Tax & Custudio</h3>
-              <p class="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
-                necessitatibus!
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- solution -->
-      <section class="solution">
-        <div class="container">
-          <img
-            class="solution-img"
-            src="./images/solution/solution.jpg"
-            alt="team"
-            width="680"
-            height="460"
-          />
-          <div class="solution-wrapper">
-            <p class="section-top-text section-top-text-light">What you are looking for</p>
-            <h2 class="section-title section-title-light">We provide bespoke solutions</h2>
-            <p class="section-bottom-text section-bottom-text-light">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-              itaque rerum temporibus doloribus iste maiores deleniti?
+    <!-- About -->
+    <section class="about">
+      <div class="container">
+        <h2 class="visually-hidden">About</h2>
+        <ul class="about-list list">
+          <li class="about-item">
+            <div class="about-icon-wrapper">
+              <svg class="about-icon" width="35" height="35">
+                <use href="./images/icons/sprite.svg#icon-university"></use>
+              </svg>
+            </div>
+            <h3 class="about-title">Investmant Banking</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
             </p>
-            <a class="button link solution-btn" href="">Read More</a>
-          </div>
-        </div>
-      </section>
+          </li>
+          <li class="about-item">
+            <div class="about-icon-wrapper">
+              <svg class="about-icon" width="35" height="35">
+                <use href="./images/icons/sprite.svg#icon-book"></use>
+              </svg>
+            </div>
+            <h3 class="about-title">Portfolio Manager</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+          <li class="about-item">
+            <div class="about-icon-wrapper">
+              <svg class="about-icon" width="35" height="35">
+                <use href="./images/icons/sprite.svg#icon-pencil"></use>
+              </svg>
+            </div>
+            <h3 class="about-title">Tax & Custudio</h3>
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
+              necessitatibus!
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <!-- Cases -->
-
-      <section class="cases">
-        <div class="container">
-          <p class="section-top-text section-top-text-dark">This is what we do</p>
-          <h2 class="section-title section-title-dark">Business Cases</h2>
-          <p class="section-bottom-text section-bottom-text-dark">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+    <!-- solution -->
+    <section class="solution">
+      <div class="container">
+        <img class="solution-img" src="./images/solution/solution.jpg" alt="team" width="680" height="460" />
+        <div class="solution-wrapper">
+          <p class="section-top-text section-top-text-light">What you are looking for</p>
+          <h2 class="section-title section-title-light">We provide bespoke solutions</h2>
+          <p class="section-bottom-text section-bottom-text-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+            quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+            itaque rerum temporibus doloribus iste maiores deleniti?
           </p>
-          <ul class="cases-list list">
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-1.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-2.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-3.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-4.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-5.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-6.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-7.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-            <li class="cases-item">
-              <img
-                class="cases-img"
-                src="./images/cases/cases-8.jpg"
-                alt="Company in Process"
-                width="320"
-                height="214"
-              />
-            </li>
-          </ul>
+          <a class="button link solution-btn" href="">Read More</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Blog-->
-      <section class="blog">
-        <div class="container">
-          <div class="blog-content-wrapper">
-            <p class="section-top-text section-top-text-light">April 16 2020</p>
-            <h2 class="section-title section-title-light">Blog Post One</h2>
-            <p class="section-bottom-text section-bottom-text-light">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
-              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
-              itaque rerum temporibus doloribus iste maiores deleniti?
-            </p>
-            <a class="button link blog-btn" href="">Read Our Blog</a>
-          </div>
-          <img
-            src="./images/blog/blog.jpg"
-            alt="coffee-cup"
-            width="680"
-            height="517"
-            loading="lazy"
-          />
+    <!-- Cases -->
+
+    <section class="cases">
+      <div class="container">
+        <p class="section-top-text section-top-text-dark">This is what we do</p>
+        <h2 class="section-title section-title-dark">Business Cases</h2>
+        <p class="section-bottom-text section-bottom-text-dark">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
+        </p>
+        <ul class="cases-list list">
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-1.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-2.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-3.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-4.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-5.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-6.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-7.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+          <li class="cases-item">
+            <img class="cases-img" src="./images/cases/cases-8.jpg" alt="Company in Process" width="320" height="214" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Blog-->
+    <section class="blog">
+      <div class="container">
+        <div class="blog-content-wrapper">
+          <p class="section-top-text section-top-text-light">April 16 2020</p>
+          <h2 class="section-title section-title-light">Blog Post One</h2>
+          <p class="section-bottom-text section-bottom-text-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+            quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+            itaque rerum temporibus doloribus iste maiores deleniti?
+          </p>
+          <a class="button link blog-btn" href="">Read Our Blog</a>
         </div>
-      </section>
-    </main>
-  </body>
+        <img src="./images/blog/blog.jpg" alt="coffee-cup" width="680" height="517" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Team -->
+
+    <section class="team">
+      <div class="container">
+        <p class="section-top-text section-top-text-dark">Who we are</p>
+        <h2 class="section-title section-title-dark">Our Professional Team</h2>
+        <p class="section-bottom-text section-bottom-text-dark"> Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+          Architecto, sapiente!</p>
+        <ul class="team-list list">
+          <li class="team-item"><img class="team-img" src="./images/team/team-1.jpg" alt="Person one" width="420"
+              height="280">
+            <h3 class="team-tittle">John Doe</h3>
+            <p class="team-position">President</p>
+          </li>
+          <li class="team-item"><img class="team-img" src="./images/team/team-2.jpg" alt="Person two" width="420"
+              height="280">
+            <h3 class="team-tittle">Jane Doe</h3>
+            <p class="team-position">Vice President</p>
+          </li>
+          <li class="team-item"><img class="team-img" src="./images/team/team-3.jpg" alt="Person third" width="420"
+              height="280">
+            <h3 class="team-tittle">Steve Smith</h3>
+            <p class="team-position">Marketing Head</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
