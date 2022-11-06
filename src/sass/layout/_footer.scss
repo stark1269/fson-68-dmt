@@ -1,21 +1,19 @@
 .footer {
   background-color: var(--primary-text-color);
-
-  & .container {
-    padding-top: 20px;
-    padding-bottom: 16px;
-  }
+  padding-top: 20px;
+  padding-bottom: 16px;
 
   &-list {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 25px;
+    margin-bottom: 10px;
   }
 
   &-text {
-    line-height: 1.56;
-    text-align: center;
+line-height: 1.56;
+text-align: center;
     color: var(--secondary-text-color);
   }
 }
-           
