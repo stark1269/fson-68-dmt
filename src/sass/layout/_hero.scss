@@ -40,5 +40,19 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      background-color: var(--secondary-text-color);
+    }
+  }
+
+  &-btn-icon {
+    fill: currentColor;
   }
 }
