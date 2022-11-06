@@ -1,0 +1,30 @@
+.team {
+    text-align: center;
+    padding: 50px 0;
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  &-item {
+    width: calc((100% - 30px) / 3);
+  }
+
+  &-img-title {
+    margin-top: 11px;
+    font-size: 25px;
+    line-height: 1.27;
+
+    color: var(--primary-text-color);
+
+    }
+
+  &-img-text {
+    margin-top: 12px;
+    line-height: 1.56;
+
+    color: var(--primary-text-color);
+    }
+}
