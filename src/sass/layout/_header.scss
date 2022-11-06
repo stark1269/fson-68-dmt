@@ -1,0 +1,48 @@
+.header {
+  background-color: #5e5e5e;
+
+  & .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  & .nav {
+    display: flex;
+    align-items: center;
+
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 38px;
+    }
+
+    &-link {
+      display: block;
+      padding-top: 21px;
+      padding-bottom: 21px;
+      line-height: 1.56;
+      color: var(--secondary-text-color);
+    }
+  }
+
+  & .logo {
+    margin-right: auto;
+
+    font-size: 35px;
+    line-height: 1.21;
+    color: var(--secondary-text-color);
+
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      margin-right: 10px;
+      fill: var(--accent-color);
+    }
+  }
+
+  & .accent {
+    margin-right: 12px;
+    color: var(--accent-color);
+  }
+}
