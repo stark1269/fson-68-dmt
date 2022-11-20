@@ -1,20 +1,35 @@
 .header {
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: 1;
 
   & .container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 28px;
+
+    @media screen and(min-width: $desktop) {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
   }
 
   .nav {
-    display: flex;
-    align-items: center;
+    @media screen and(min-width: $tablet) {
+      display: flex;
+      align-items: center;
+    }
 
     &-list {
       display: flex;
       align-items: center;
-      gap: 38px;
+      gap: 12px;
+
+      @media screen and(min-width: $tablet) {
+        gap: 18px;
+      }
+
+      @media screen and(min-width: $desktop) {
+        gap: 38px;
+      }
     }
 
     &-link {
@@ -24,8 +39,13 @@
       padding-bottom: 21px;
       line-height: 1.56;
       color: var(--secondary-text-color);
+      font-size: 16px;
 
       transition: color 250ms ease;
+
+      @media screen and(min-width: $tablet) {
+        font-size: 18px;
+      }
 
       &:hover,
       &:focus {
@@ -50,12 +70,18 @@
   & .logo {
     margin-right: auto;
 
-    font-size: 35px;
+    padding-top: 21px;
+    font-size: 32px;
     line-height: 1.21;
     color: var(--secondary-text-color);
 
     display: flex;
     align-items: center;
+
+    @media screen and(min-width: $tablet) {
+      padding-top: 0;
+      font-size: 35px;
+    }
 
     &-icon {
       margin-right: 10px;
